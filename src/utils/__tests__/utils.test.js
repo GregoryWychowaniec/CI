@@ -8,9 +8,9 @@ import { importPizza } from "../../services/importPizza";
   });
 });
 
-describe("importPizza", () => {
-  test("import fichier correct", () => {
-    expect(importPizza("src/storage/pizza.json")).toBeDefined();
-  });
+//describe("importPizza", () => {
+//  test("import fichier correct", () => {
+//    expect(importPizza("src/storage/pizza.json")).toBeDefined();
+ // });
   
-});
+//});
