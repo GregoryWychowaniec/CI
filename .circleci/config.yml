@@ -19,5 +19,5 @@ jobs: # a collection of steps
             - ./node_modules
       - run:
             name: test
-            command: 'npm run test'
+            command: 'npm run isima-test'
 
