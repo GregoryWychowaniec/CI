@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'isima-test' ]
+2 info using npm@3.10.10
+3 info using node@v6.14.4
+4 verbose run-script [ 'preisima-test', 'isima-test', 'postisima-test' ]
+5 info lifecycle zz2-f5-ci-bootstrap@1.0.0~preisima-test: zz2-f5-ci-bootstrap@1.0.0
+6 silly lifecycle zz2-f5-ci-bootstrap@1.0.0~preisima-test: no script for preisima-test, continuing
+7 info lifecycle zz2-f5-ci-bootstrap@1.0.0~isima-test: zz2-f5-ci-bootstrap@1.0.0
+8 verbose lifecycle zz2-f5-ci-bootstrap@1.0.0~isima-test: unsafe-perm in lifecycle true
+9 verbose lifecycle zz2-f5-ci-bootstrap@1.0.0~isima-test: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/LOCAL.ISIMA.FR/grwychowan/CI/TP5-master/node_modules/.bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+10 verbose lifecycle zz2-f5-ci-bootstrap@1.0.0~isima-test: CWD: /home/LOCAL.ISIMA.FR/grwychowan/CI/TP5-master
+11 silly lifecycle zz2-f5-ci-bootstrap@1.0.0~isima-test: Args: [ '-c', 'npm run isima-jest' ]
+12 silly lifecycle zz2-f5-ci-bootstrap@1.0.0~isima-test: Returned: code: 1  signal: null
+13 info lifecycle zz2-f5-ci-bootstrap@1.0.0~isima-test: Failed to exec isima-test script
+14 verbose stack Error: zz2-f5-ci-bootstrap@1.0.0 isima-test: `npm run isima-jest`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:920:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+15 verbose pkgid zz2-f5-ci-bootstrap@1.0.0
+16 verbose cwd /home/LOCAL.ISIMA.FR/grwychowan/CI/TP5-master
+17 error Linux 4.15.0-34-generic
+18 error argv "/usr/bin/node" "/usr/bin/npm" "run" "isima-test"
+19 error node v6.14.4
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error zz2-f5-ci-bootstrap@1.0.0 isima-test: `npm run isima-jest`
+22 error Exit status 1
+23 error Failed at the zz2-f5-ci-bootstrap@1.0.0 isima-test script 'npm run isima-jest'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the zz2-f5-ci-bootstrap package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     npm run isima-jest
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs zz2-f5-ci-bootstrap
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls zz2-f5-ci-bootstrap
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

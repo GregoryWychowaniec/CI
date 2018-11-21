@@ -1,0 +1,26 @@
+{"pizza":[
+{
+    "nom":"4 fromages",
+    "prix":12,
+    "ingredients":["tomate","salade","oignons"],
+    "image":"https://commande.dominos.fr/ManagedAssets/FR/product/P4FR/FR_P4FR_fr_menu_2142.jpg?v2119385992"
+},
+{
+    "nom":"7 fromages",
+    "prix":17,
+    "ingredients":["crème fraiche","cantal","salers"],
+    "image":"https://commande.dominos.fr/ManagedAssets/FR/product/PDES/FR_PDES_fr_menu_1846.jpg?v1820674484"
+},
+{
+    "nom":"raclette",
+    "prix":22,
+    "ingredients":["patate","saint nectaire","charcuterie"],
+    "image":"https://commande.dominos.fr/ManagedAssets/FR/product/PSVY/FR_PSVY_fr_menu_2047.jpg?v1948618914"
+},
+{
+    "nom":"royale",
+    "prix":50,
+    "ingredients":["champignon","homard","caviar"],
+    "image":"https://commande.dominos.fr/ManagedAssets/FR/product/PSSE/FR_PSSE_fr_menu_2142.jpg?v835011972"
+}
+]}
