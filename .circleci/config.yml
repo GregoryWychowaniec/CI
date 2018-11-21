@@ -14,3 +14,10 @@ jobs: # a collection of steps
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
             - ./node_modules
+      - run:
+          name: npminstall
+          command: 'sudo npm run isima-install'
+      - run:
+          name: npmrun
+          command: 'sudo npm run isima-test'
+
