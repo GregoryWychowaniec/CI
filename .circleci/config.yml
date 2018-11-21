@@ -9,6 +9,8 @@ jobs: # a collection of steps
           name: update-npm
           command: 'sudo npm install -g npm@latest'
       - run:
+          requires:
+            - update-npm
           name: npmrun
           command: 'sudo npm test'
       - restore_cache: # special step to restore the dependency cache
